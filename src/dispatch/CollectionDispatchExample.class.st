@@ -7,11 +7,11 @@ Class {
 
 { #category : 'as yet unclassified' }
 CollectionDispatchExample >> dispatchOverCollection: aCollection [ 
-        ^ aCollection collect: [ :each | self handleElement: each ].
+        ^ aCollection collect: [ :each | self element: each ].
 ]
 
 { #category : 'as yet unclassified' }
-CollectionDispatchExample >> handleElement: anElement [ 
+CollectionDispatchExample >> element: anElement [ 
         (anElement isNumber) ifTrue: [ ^anElement squared ].
         (anElement isString) ifTrue: [ ^anElement asUppercase ].
         ^anElement.

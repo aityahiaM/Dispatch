@@ -13,16 +13,6 @@ DispatchExample >> dispatchBasedOnType: anObject [
 ]
 
 { #category : 'as yet unclassified' }
-DispatchExample >> handleNumber: aNumber [ 
-        ^'Le nombre est: ', aNumber asString.
-]
-
-{ #category : 'as yet unclassified' }
-DispatchExample >> handleString: aString [ 
-        ^'La chaîne est: ', aString.
-]
-
-{ #category : 'as yet unclassified' }
 DispatchExample >> number: aNumber [ 
         ^'Le nombre est: ', aNumber asString.
 ]
